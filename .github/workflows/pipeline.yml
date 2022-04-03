@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: fso-cicd
           heroku_email: castro.dh91@gmail.com
+          healthcheck: https://fso-cicd.herokuapp.com/health
+          checkstring: ok
