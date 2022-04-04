@@ -35,3 +35,4 @@ jobs:
           heroku_email: castro.dh91@gmail.com
           healthcheck: https://fso-cicd.herokuapp.com/health
           checkstring: ok
+          rollbackonhealthcheckfailed: true
